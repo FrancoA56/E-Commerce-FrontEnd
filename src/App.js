@@ -17,6 +17,8 @@ import Purchases from "./components/purchases";
 import About from "./components/about";
 
 function App() {
+ 
+
   // const URL = process.env.REACT_APP_API;
   // const dispatch = useDispatch();
   // const isLoggedIn = useSelector((state) => state.login);
@@ -51,7 +53,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route className="dark" path="/" element={<Home />} />
-        {/* <Route className="dark" path="/login" element={<Login />} />
+        <Route className="dark" path="/login" element={<Login />} />
         <Route className="dark" path="/register" element={<Register />} />
         <Route className="dark" path="/shop" element={<Shop />} />
         <Route className="dark" path="/cart" element={<Cart />} />
@@ -60,7 +62,7 @@ function App() {
         <Route className="dark" path="/user" element={<User />} />
         <Route className="dark" path="/user-detail" element={<UserDetail />} />
         <Route className="dark" path="/purchases" element={<Purchases />} />
-        <Route className="dark" path="/about" element={<About />} /> */}
+        <Route className="dark" path="/about" element={<About />} />
       </Routes>
     </div>
   );

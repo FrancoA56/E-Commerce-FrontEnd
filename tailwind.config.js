@@ -7,6 +7,10 @@ module.exports = {
         blackL: "#5a5a5a",
         whiteL: "#f5e6cc",
         crema: "#fff4f4",
+        rosita: "#F2D5D5",
+        rosa: "#F2BDBD",
+        gris: "#736668",
+        grisOsc: "#404040"
         // bgc: "#F1EFEF",
         // bgce: "#F9DEC9",
         // txc: "#001524",
